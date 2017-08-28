@@ -15,7 +15,9 @@ function swapBlueGreen(img) {
     var blueCor = 227;  // Blue value of the color 'Blue'
 
     for(var pixel of img.values()) {
-        if(pixel.getRed() == redCor && pixel.getGreen() == greenCor && pixel.getBlue() == blueCor) {
+        // Blue pixels have a greater Blue value than the Green and Red
+        // So if the blue value is greater than Red plus Green then it must be a Blue pixel
+        if(pixel.getBlue() > pixel.getRed() + pixel.getGreen()) {
             pixel.setRed(255);
             pixel.setGreen(255);
             pixel.setBlue(0);
