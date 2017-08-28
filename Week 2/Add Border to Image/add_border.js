@@ -43,5 +43,4 @@ var originalImage = new SimpleImage('smallpanda.png');      // Original image
 var imageModify = new SimpleImage('smallpanda.png');        // Image to be modified
 var modifiedImage = addBorder(imageModify);                 // Modified image
 
-print(originalImage);
 print(modifiedImage);
