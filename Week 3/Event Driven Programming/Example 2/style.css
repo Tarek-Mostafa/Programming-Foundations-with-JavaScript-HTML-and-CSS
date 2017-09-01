@@ -1,0 +1,10 @@
+h1 {
+	color: dimgray;
+	font-family: arial;
+}
+
+canvas {
+	width: 500px;
+	height: 200px;
+	background-color: orange;
+}
