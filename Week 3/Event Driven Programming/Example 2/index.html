@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Event Driven Programming Example 2</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<div>
+		<h1>Color Chooser Practice</h1>
+		<canvas id="d1"></canvas>
+	</div>
+
+	<input id="btn" type="button" value="Make Red" onclick="btnDoColor()">
+	<input id="clr" type="color" value="#FF0000" onchange="doColor()">
+	<input id="sldr" type="range" min="10" max="85" value="10" oninput="doSlider()">
+
+	<script src="script.js"></script>
+</body>
+</html>
