@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Image Filter Mini Project</title>
+	<link rel="stylesheet" type="text/css" href="stlye.css">
+</head>
+<body>
+
+<h1>Image Filter</h1>
+<canvas id="canvas"></canvas>
+
+
+<h2 class="nomarginbottom">Load Image:</h2>
+<input id="file" type="file" multiple="false" accept="image/*" onchange="loadImage()">
+
+
+<h2 class="nomarginbottom">Choose Filter:</h2>
+<div class="filters">
+	<input id="btnRed" type="button" value="Red Filter" onclick="makeRed()">
+	<input id="btnRainbow" type="button" value="Rainbow Filter" onclick="makeRainbow()">
+	<input id="btnGrey" type="button" value="Greyscale Filter" onclick="makeGrey()">
+</div>
+
+
+<h2 class="nomarginbottom">Reset Image Filter</h2>
+<input id="btnReset" type="button" value="Reset Image" onclick="resetImage()">
+
+<!-- Simple Image Library -->
+<script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
