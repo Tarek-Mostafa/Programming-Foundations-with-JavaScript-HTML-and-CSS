@@ -10,7 +10,7 @@ In Week 2 only, for the code to be executed, code should be run at Duke Universi
 <hr>
 
 <h3>Update 19 Sept 2017:</h3>
-I finished the course in 4 weeks and it was a great experience. Here's the link to the Certificate <a href="https://www.coursera.org/account/accomplishments/certificate/PBDEEDB3MAER">Here</a>
+I finished the course in 4 weeks and it was a great experience. Here's <a href="https://www.coursera.org/account/accomplishments/certificate/PBDEEDB3MAER">the link to the Certificate.</a>
 
 <h3>What I learned in this course:</h3>
 1- HTML and CSS <br/>
