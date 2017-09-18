@@ -5,4 +5,4 @@ This is the first course of the Specialization, <a href="https://www.coursera.or
 
 # IMPORTANT NOTE: 
 
-For the code to be executed, code should be run at Duke University Code Environment as all the libraries and images are hosted there, at this link -> http://www.dukelearntoprogram.com/course1/example/index.php
+In Week 2 only, for the code to be executed, code should be run at Duke University Code Environment as all the libraries and images are hosted there, at this link -> http://www.dukelearntoprogram.com/course1/example/index.php
