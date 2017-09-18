@@ -1,0 +1,35 @@
+body {
+	background: #D9EBF3;
+	font-family: arial;
+	font-size: 16px;
+	color: #333;
+}
+
+#canvas {
+	border: 1px solid;
+	width: 300px;
+}
+
+input {
+	display: block;
+	margin-top: 10px;
+}
+
+input:not([type="file"]) {
+	background: #DEC0C0;
+	border: 0;
+	padding: 8px 20px;
+	cursor: pointer;
+}
+
+input:not([type="file"]):hover {
+	background: #C79292;
+}
+
+.filters input {
+	display: inline-block;
+}
+
+.nomarginbottom {
+	margin-bottom: 0;
+}
